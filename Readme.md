@@ -1,17 +1,22 @@
-# Request
+# Diet-Request
 With this module you can make internal or cross site requests.
 
-## Simple GET request example:
-```
-	new Request({
-		url : 'http://twitter.com/api/call',
-		end: function(response){
-			console.log(response);
-		}
-	});
+### Install:
+```javascript
+npm install diet-request
 ```
 
-## Request Parameters
+### Simple GET request example:
+```javascript
+new Request({
+	url : 'http://twitter.com/api/call',
+	end: function(response){
+		console.log(response);
+	}
+});
+```
+
+### Request Parameters
 ```javascript
 {
 	// required, string
