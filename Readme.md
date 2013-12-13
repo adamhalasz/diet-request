@@ -29,16 +29,16 @@ new Request({
 	'data'		: {""}, 
 	
 	// defaults to `query.host`, `string`
-	'host'		: 'google.com', // required string
+	'host'		: 'google.com', 
 	
 	// defaults to `query.path`, `string`
-	'path'		: '/', // required string
+	'path'		: '/',
 	
 	// defaults to `80` if http, `443` if https, `integer`
-	'port'		: 80, // required string
+	'port'		: 80,
 	
 	// detaults to `[{'Content-Type': 'application/x-www-form-urlencoded'}]`, `array`
-	'headers'	: [{'Content-Type': 'application/x-www-form-urlencoded'}], // required string
+	'headers'	: [{'Content-Type': 'application/x-www-form-urlencoded'}]
 }
 ```
 
