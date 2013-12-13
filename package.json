@@ -1,0 +1,18 @@
+{
+	"name" : "diet-request",
+	"version": "v0.0.2",
+	"description": "Simple HTTP Request Client",
+	"keywords": ["http", "request", "download", "get", "post", "request server", "client", "http client"],
+	"bugs" : { 
+		"url" : "http://github.com/adamhalasz/request/issues"
+	, "email" : "mail@adamhalasz.com"
+	},
+	"license": "MIT",
+	"author" : {
+		"name"	: "Halász Ádám",
+		"email"	: "mail@adamhalasz.com",
+		"url"	:"http://adamhalasz.com/"
+	},
+	"main" : "index.js",
+	"engines" : { "node" : ">=0.8.21" }
+}
